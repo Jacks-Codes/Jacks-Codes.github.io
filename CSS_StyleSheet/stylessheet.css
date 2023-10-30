@@ -3,7 +3,7 @@ body, h1, h2, h3, p, ul, li, img {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
+    font-size: 500%;
     font: inherit;
     vertical-align: baseline;
 }
@@ -30,7 +30,7 @@ body {
 
 .header h1, .footer h1 {
     color: #FF4500;
-    font-size: 500%;
+    font-size: 5000%;
 }
 
 .main-content {
