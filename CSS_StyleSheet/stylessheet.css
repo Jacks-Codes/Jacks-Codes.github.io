@@ -30,6 +30,7 @@ body {
 
 .header h1, .footer h1 {
     color: #FF4500;
+    font-size: 500%;
 }
 
 .main-content {
