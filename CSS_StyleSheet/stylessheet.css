@@ -1,0 +1,75 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FAFAD2;
+    color: #FF6347;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header, .footer {
+    background-color: #FFD700;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1, .footer h1 {
+    color: #FF4500;
+}
+
+.main-content {
+    padding: 20px 0;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #40E0D0;
+    color: #FFF;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #FF4500;
+}
+
+/* For better mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .image-gallery {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
