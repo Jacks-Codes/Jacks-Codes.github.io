@@ -31,7 +31,23 @@
     </div>
 
     <footer>
-        <p>Jackson 2023 &copy; 2023</p>
+        <p>Jackson &copy; 2023</p>
     </footer>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const dropdown = document.querySelector('.dropdown');
+        const dropdownContent = document.querySelector('.dropdown-content');
+
+        dropdown.addEventListener('mouseenter', function() {
+            dropdownContent.style.display = 'block';
+            // Add any additional animation styles here
+        });
+
+        dropdown.addEventListener('mouseleave', function() {
+            dropdownContent.style.display = 'none';
+            // Add any additional animation styles here
+        });
+    });
+</script>
 </body>
 </html>
