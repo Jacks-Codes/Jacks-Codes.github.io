@@ -9,9 +9,9 @@ body, h1, h2, h3, p, ul, li, img {
 }
 
 body {
-    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-    background-color: #d2ebfa;
-    color: #FF6347;
+    font-family: 'Monaco', monospace; /* Changed to Monaco font */
+    background-color: #0B3B0B; /* Dark forest green background */
+    color: #F5F5DC; /* Bone white text */
     line-height: 1.6;
 }
 
@@ -41,13 +41,13 @@ h3 {
 }
 
 .header, .footer {
-    background-color: #FFD700;
+    background-color: #006400; /* Darker green for header and footer */
     text-align: center;
     padding: 20px 0;
 }
 
 .header h1, .footer h1 {
-    color: #FF4500;
+    color: #F5F5DC; /* Bone white for header/footer text */
 }
 
 .main-content {
@@ -74,15 +74,15 @@ h3 {
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #40E0D0;
-    color: #FFF;
+    background-color: #228B22; /* Forest green buttons */
+    color: #F5F5DC; /* Bone white text */
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
 }
 
 .button:hover {
-    background-color: #FF4500;
+    background-color: #006400; /* Darker green on hover */
 }
 
 /* For better mobile responsiveness */
@@ -93,7 +93,7 @@ h3 {
 }
 
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: #228B22; /* Forest green dropdown button */
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -103,7 +103,7 @@ h3 {
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
+    background-color: #006400; /* Darker green on hover */
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -116,7 +116,7 @@ h3 {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #F5F5DC; /* Bone white dropdown content */
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -124,16 +124,11 @@ h3 {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
+    color: #0B3B0B; /* Dark forest green text */
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+.dropdown-content a:hover {background-color: #228B22} /* Lighter green on hover */
