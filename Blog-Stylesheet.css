@@ -1,0 +1,77 @@
+/* Blog Page - Dark Theme */
+
+/* General Styles */
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff; /* White text */
+  background-color: #000000; /* Black background */
+}
+
+a {
+  color: #ff4500; /* Dark orange links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff6347; /* Red on hover */
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff; /* White headings */
+}
+
+/* Blog Post */
+.blog-post {
+  background: #1a1a1a; /* Slightly lighter black for blog posts */
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.blog-post h2 {
+  color: #ff6347; /* Dark orange titles */
+}
+
+.blog-post p {
+  color: #ffffff; /* White text */
+}
+
+/* Blog Navigation */
+.blog-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.blog-nav li a {
+  color: #ff4500; /* Dark orange links */
+  font-size: 16px;
+}
+
+.blog-nav li a:hover {
+  color: #ff6347; /* Red on hover */
+}
+
+/* Footer */
+.footer {
+  background: #262626; /* Dark footer background */
+  color: #ffffff; /* White footer text */
+  text-align: center;
+  padding: 15px 0;
+}
+
+.footer a {
+  color: #ff6347; /* Red links in footer */
+}
+
+.footer a:hover {
+  color: #ff4500; /* Dark orange on hover */
+}
+
+/* Additional styling as needed... */
