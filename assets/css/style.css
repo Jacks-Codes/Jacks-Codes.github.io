@@ -761,7 +761,7 @@ body {
 }
 
 a {
-  color: #ff4500; /* Dark orange links */
+  color: #feffde; /* Bone Color links */
   text-decoration: none;
 }
 
@@ -784,7 +784,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blog-post h2 {
-  color: #ff6347; /* Dark orange titles */
+  color: #feffde; /* Bone Color links */
 }
 
 .blog-post p {
@@ -803,7 +803,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blog-nav li a {
-  color: #ff4500; /* Dark orange links */
+  color: #feffde; /* Bone Color links */
   font-size: 16px;
 }
 
@@ -820,7 +820,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer a {
-  color: #ff6347; /* Red links in footer */
+  color: #feffde; /* Bone Color links */
 }
 
 .footer a:hover {
